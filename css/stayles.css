@@ -1,0 +1,914 @@
+:root {
+
+    --main-color: #0078ff;
+    --bg-color: #f5f5f5;
+    --font-family: "Montserrat", sans-serif;
+    --font-famiy2: "Poppins", sans-serif;
+    --color-p: #748182
+}
+
+body {
+    font-family: var(--font-family);
+}
+
+p {
+    font-family: var(--font-famiy2);
+    color: var(--color-p);
+}
+
+.main-color {
+    color: var(--main-color);
+}
+
+.bg-color {
+    background-color: var(--bg-color);
+}
+
+.bg-color-sec {
+    background-color: var(--main-color);
+}
+
+
+
+/* -------------------Start Header----------------------- */
+#home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/WhatsApp\ Image\ 2025-04-28\ at\ 21.25.02_043e149c.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+     background-position: center center; 
+    background-size: 100% 100%;
+
+    h2 {
+        font-size: 60px;
+        font-weight: 200;
+    }
+
+    h1 {
+        font-size: 50px;
+        font-weight: 800;
+
+    }
+
+}
+
+#home h2::after {
+    content: "";
+    animation-name: maim-animation-header;
+    font-size: 60px;
+    font-weight: 400;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes maim-animation-header {
+
+    /* 1 */
+    0% {
+        content: "D|";
+    }
+
+    2% {
+        content: "De|";
+    }
+
+    3% {
+        content: "Dev|";
+
+    }
+
+    4% {
+        content: "Deve|";
+
+    }
+
+    5% {
+        content: "Devel|";
+
+    }
+
+    6% {
+        content: "Develo|";
+
+    }
+
+    7% {
+        content: "Develop|";
+
+    }
+
+    8% {
+        content: "Develope|";
+
+    }
+
+    9% {
+        content: "Developer|";
+
+    }
+
+    10% {
+        content: "Developer|";
+
+    }
+
+    11% {
+        content: "Developer|";
+    }
+
+    12% {
+        content: "Developer|";
+    }
+
+    /* 2 */
+    13% {
+        content: "Develope|";
+
+    }
+
+    14% {
+        content: "Develop|";
+
+    }
+
+    15% {
+        content: "Develo|";
+
+    }
+
+    16% {
+        content: "Devel|";
+
+    }
+
+    17% {
+        content: "Deve|";
+
+    }
+
+    18% {
+        content: "Dev|";
+
+    }
+
+    19% {
+        content: "De|";
+
+    }
+
+    20% {
+
+        content: "D|";
+    }
+
+    21% {
+        content: "|";
+
+    }
+
+    22% {
+        content: "|";
+
+    }
+
+    23% {
+        content: "|";
+
+    }
+
+    24% {
+        content: "|";
+
+    }
+
+    25% {
+        content: "D|";
+
+    }
+
+    26% {
+
+        content: "De|";
+    }
+
+    27% {
+        content: "Des|";
+
+    }
+
+    28% {
+        content: "Desi|";
+
+    }
+
+    29% {
+        content: "Desin|";
+
+    }
+
+    30% {
+        content: "Desing|";
+
+    }
+
+    31% {
+        content: "Desinge|";
+
+    }
+
+    32% {
+        content: "Desinger|";
+
+    }
+
+    33% {
+        content: "Desinger|";
+
+    }
+
+    34% {
+        content: "Desinger|";
+
+    }
+
+    35% {
+        content: "Desinger|";
+
+    }
+
+    36% {
+
+        content: "Desinge|";
+
+    }
+
+    37% {
+        content: "Desing|";
+
+    }
+
+    38% {
+        content: "Desin|";
+
+    }
+
+    39% {
+        content: "Desi|";
+
+    }
+
+    40% {
+        content: "Desi|";
+
+    }
+
+    41% {
+
+        content: "Des|";
+    }
+
+    42% {
+        content: "De|";
+
+    }
+
+    43% {
+        content: "D|";
+
+    }
+
+    44% {
+        content: "|";
+
+    }
+
+    45% {
+        content: "|";
+
+    }
+
+    46% {
+        content: "|";
+
+    }
+
+    47% {
+        content: "|";
+
+    }
+
+    48% {
+        content: "L|";
+
+    }
+
+    49% {
+        content: "La|";
+
+    }
+
+    50% {
+
+        content: "Lar|";
+    }
+
+    51% {
+        content: "Larr|";
+
+    }
+
+    52% {
+        content: "Larry|";
+
+    }
+
+    53% {
+        content: "Larry D|";
+
+    }
+
+    54% {
+        content: "Larry Da|";
+
+    }
+
+    55% {
+        content: "Larry Dan|";
+
+    }
+
+    56% {
+        content: "Larry Dani|";
+
+    }
+
+    57% {
+        content: "Larry Danie|";
+
+    }
+
+    58% {
+        content: "Larry Daniel|";
+
+    }
+
+    59% {
+        content: "Larry Daniels|";
+
+    }
+
+    60% {
+        content: "Larry Daniels|";
+
+    }
+
+    61% {
+        content: "Larry Daniels|";
+
+    }
+
+    62% {
+        content: "Larry Daniels|";
+
+    }
+
+    63% {
+        content: "Larry Daniel|";
+
+    }
+
+    64% {
+        content: "Larry Danie|";
+
+    }
+
+    65% {
+        content: "Larry Dani|";
+
+    }
+
+    66% {
+        content: "Larry Dan|";
+
+    }
+
+    67% {
+        content: "Larry Da|";
+
+    }
+
+    68% {
+        content: "Larry D|";
+
+    }
+
+    69% {
+        content: "Larry |";
+
+    }
+
+    70% {
+        content: "Larry|";
+
+    }
+
+    71% {
+        content: "Larr|";
+
+    }
+
+    72% {
+
+        content: "Lar|";
+    }
+
+    73% {
+
+        content: "La|";
+    }
+
+    74% {
+        content: "L|";
+
+    }
+
+    75% {
+        content: "|";
+
+    }
+
+
+
+}
+
+/* -------------------End Header----------------------- */
+/* -------------------Start Navebar----------------------- */
+.navbar .nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    margin-inline: 10px;
+}
+
+
+
+
+.navbar .nav-link {
+    position: relative;
+}
+
+.navbar .nav-link .underline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 0;
+    background-color: #000;
+    transition: all 0.3s;
+}
+
+
+.navbar .nav-link.active .underline {
+    width: 100%;
+}
+
+
+
+
+
+/* scllor */
+
+.navbar {
+    background-color: transparent !important;
+    transition: all 0.3s;
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand,
+.navbar .nav-link.active {
+    color: #fff;
+    transition: all 0.3s;
+}
+
+
+.navbar.scrolled {
+    background-color: white !important;
+}
+
+.navbar.scrolled .nav-link,
+.navbar.scrolled .navbar-brand,
+.navbar.scrolled .nav-link.active {
+    color: black;
+}
+
+.navbar .nav-link.active span {
+    background-color: #fff;
+}
+
+
+.navbar.scrolled .nav-link.active span {
+    background-color: black;
+}
+
+/* -------------------End Navebar----------------------- */
+
+
+/* <!-----------start-about---------------------> */
+
+#About span {
+    font-weight: 700;
+    color: #748182;
+}
+
+/* about header */
+.content-Services,.hesder-Portfolio ,.header-Contact-Us ,.header-our-team {
+    position: relative;
+
+}
+
+.my-dashed {
+
+    position: absolute;
+    border-bottom: 3px dotted rgba(94, 92, 116, 8%);
+    height: 1px;
+    width: 180px;
+    bottom: 30px;
+    right: 455px;
+}
+
+/* rgba(94, 92, 116, 10%) */
+.my-dashed::after {
+    content: "";
+    position: absolute;
+    border-bottom: 3px dotted rgba(94, 92, 116, 8%);
+    height: 1px;
+    width: 180px;
+    top: 30px;
+    right:  6px;
+
+}
+
+.my-dashed::before {
+    content: "";
+    position: absolute;
+    border-bottom: 3px dotted rgba(94, 92, 116, 8%);
+    height: 1px;
+    width: 180px;
+    top: 20px;
+    right: 1px;
+
+}
+
+/*start butoon */
+.myhover:hover {
+    background-color: #1c1c1c;
+    border-color: #1c1c1c;
+}
+
+.myhover2:hover {
+
+    background-color: transparent;
+    color: #1c1c1c;
+}
+
+.myhover2,
+.my-bg {
+    transition: all 0.5s;
+}
+
+.my-bg {
+    background-color: #1c1c1c;
+    color: #fff;
+
+}
+
+.my-color {
+    color: #1c1c1c;
+}
+
+.line-about {
+
+    border-radius: 7px;
+    background-color: #1c1c1c;
+    height: 25px;
+
+    p {
+        color: #fff;
+        font-size: 14px;
+    }
+
+}
+
+.mywidth-about1 {
+    width: 95%;
+}
+
+.mywidth-about2 {
+    width: 80%;
+}
+
+.mywidth-about3 {
+    width: 90%;
+}
+
+.line-transform-about {
+    transform: translatey(25px);
+    width: 100%;
+    height: 24px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+/* img */
+
+.n {
+    border-bottom: 3px dotted rgba(94, 92, 116, 15%);
+   
+    position: relative;
+    width: 80%;
+    top: 5px
+}
+
+.n::after {
+
+    content: "";
+    position: absolute;
+
+    border-bottom: 3px dotted rgba(94, 92, 116, 15%);
+    width: 100%;
+    top: 15px;
+
+
+}
+
+.n::before {
+    content: "";
+    position: absolute;
+
+    border-bottom: 3px dotted rgba(94, 92, 116, 15%);
+    width: 100%;
+    top: 30px;
+    
+}
+
+
+
+/* <!-----------end-about-----------------------> */
+
+
+
+/* <!-----------start-Services.---------------------> */
+
+
+
+
+
+#Services {
+    background-color: #f7f7f7;
+
+
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.item1-ser {
+    background-color: #fff;
+    padding-block: 30px;
+    border-radius: 5px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+
+}
+
+.item1-ser i {
+    padding: 22px 20px;
+    background-color: rgba(116, 129, 130, 20%);
+    transition: all 0.5s;
+}
+
+.item1-ser:hover i {
+    background-color: rgb(12, 12, 12);
+    color: #fff;
+
+}
+
+
+/* <!-----------end-Services.-----------------------> */
+
+
+/* <!-----------end-Portfolio.-----------------------> */
+
+.fit-content {
+    width: fit-content;
+    margin: auto;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: transparent;
+    color: #1c1c1c;
+
+}
+
+.nav-pills .nav-link {
+    color: #1c1c1c;
+    font-weight: 700;
+}
+
+.card-img {
+    position: relative;
+
+}
+
+.layer {
+    position: absolute;
+    opacity: 0;
+    inset: 5px;
+    background-color: #fff;
+    transition: all 0.7s;
+    transform: translatey(10px);
+}
+
+.card-img:hover .layer {
+    opacity: 1;
+    transform: translatey(0);
+
+}
+
+.transform-pro-h6 {
+    transition: all 0.7s;
+    transform: translatey(-20px);
+}
+
+.card-img:hover .transform-pro-h6 {
+    transform: translatey(0px)
+}
+
+
+.my-dashed2 {
+
+    position: absolute;
+    border-bottom: 3px dotted rgba(94, 92, 116, 8%);
+    height: 1px;
+    width: 220px;
+    bottom: 30px;
+    right: 500px;
+}
+
+/* rgba(94, 92, 116, 10%) */
+.my-dashed2::after {
+    content: "";
+    position: absolute;
+    border-bottom: 3px dotted rgba(94, 92, 116, 8%);
+    height: 1px;
+    width: 220px;
+    top: 30px;
+    right:  6px;
+
+}
+
+.my-dashed2::before {
+    content: "";
+    position: absolute;
+    border-bottom: 3px dotted rgba(94, 92, 116, 8%);
+    height: 1px;
+    width: 220px;
+    top: 20px;
+    right: 1px;
+
+}
+/* try */
+
+.nav-link {
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.nav-link .underline2 {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #000;
+    transition: all 0.3s;
+}
+
+
+.nav-link.active .underline2 {
+    width: 75%;
+    margin-left: 10px;
+}
+
+
+
+
+
+/* <!-----------start-Testimonials..---------------------> */
+#Testimonials {
+    background-color: #f7f7f7;
+}
+
+.carousel-content img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.myfont-p-Testimonials {
+    font-size: 11px;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #748182;
+    width: 1px;
+    border-radius: 50%;
+    padding: 4px 5px;
+    margin-top: 10px;
+    transition: all 0.2s;
+}
+
+.carousel-indicators [data-bs-target]:hover:not(.carousel-indicators .active) {
+    background-color: #292828;
+}
+
+/* <!-----------end-Testimonials..-----------------------> */
+
+/* <!-----------start-Our Team...---------------------> */
+/*  */
+#Our-Team {
+    background-color: #f7f7f7;
+}
+
+.content-footer1 i {
+    font-size: 30px;
+}
+
+.demo-p-footer1 {
+    font-weight: 900;
+    color: #1c1c1c;
+    font-size: 30px;
+}
+
+.all-our-tem {
+    background-color: #5b5b5b;
+}
+
+.all-our-tem:hover .layer-our-team {
+    transform: rotatey(0deg) scale(1);
+    opacity: 1;
+
+}
+
+.all-our-tem:hover .img-our-team img {
+    transform: scale(1.2);
+}
+
+.img-our-team img {
+    transition: all 0.5s;
+}
+
+.layer-our-team {
+    inset: 10px;
+    background-color: rgba(255, 255, 255, 95%);
+    transform: rotatey(180deg) scale(0.5);
+    transition: all 0.5s;
+    opacity: 0;
+}
+
+/* <!-----------end-Our Team..-----------------------> */
+
+
+.p-hover-con:hover .myhover-con {
+    background-color: #1c1c1c;
+    color: #fff;
+}
+
+.myhover-con {
+    transition: all 0.5s;
+}
+
+.my-bg-color {
+
+    background-color: rgba(91, 91, 91, 20%);
+}
+
+.fit-Content {
+    width: fit-content;
+}
+
+
+.form-control {
+    background-color: rgba(91, 91, 91, 20%);
+}
+
+
+#d{
+    background-color: #1c1c1c;
+    padding-block:40px ;
+}
+
+
+
